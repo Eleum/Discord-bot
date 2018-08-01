@@ -6,6 +6,7 @@ namespace DiscordBot
     {
         static void Main(string[] args)
         {
+            Unity.RegisterTypes();
             Console.WriteLine("Hello World!");
         }
     }
