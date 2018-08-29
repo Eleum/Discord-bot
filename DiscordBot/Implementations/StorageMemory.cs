@@ -11,10 +11,7 @@ namespace DiscordBot.Implementations
 
         public void StoreObject(object obj, string key)
         {
-            if (_dictionary.ContainsKey(key))
-            {
-                return;
-            }
+            if (_dictionary.ContainsKey(key)) return;
                 
             _dictionary.Add(key, obj);
         }
